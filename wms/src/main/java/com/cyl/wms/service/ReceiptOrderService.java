@@ -136,21 +136,13 @@ public class ReceiptOrderService {
             qw.eq("receipt_order_no", receiptOrderNo);
         }
         Integer receiptOrderType = query.getReceiptOrderType();
-        if (receiptOrderType != null) {
-            qw.eq("receipt_order_type", receiptOrderType);
-        }
+        qw.eq(receiptOrderType != null,"receipt_order_type", receiptOrderType);
         Long supplierId = query.getSupplierId();
-        if (supplierId != null) {
-            qw.eq("supplier_id", supplierId);
-        }
+        qw.eq(supplierId != null,"supplier_id", supplierId);
         String orderNo = query.getOrderNo();
-        if (!StringUtils.isEmpty(orderNo)) {
-            qw.eq("order_no", orderNo);
-        }
+        qw.eq(!StringUtils.isEmpty(orderNo),"order_no", orderNo);
         Integer receiptOrderStatus = query.getReceiptOrderStatus();
-        if (receiptOrderStatus != null) {
-            qw.eq("receipt_order_status", receiptOrderStatus);
-        }
+        qw.eq(receiptOrderStatus != null,"receipt_order_status", receiptOrderStatus);
         return receiptOrderMapper.selectList(qw);
     }
 
