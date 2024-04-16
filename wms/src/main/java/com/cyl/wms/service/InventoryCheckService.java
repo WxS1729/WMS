@@ -20,7 +20,7 @@ import com.cyl.wms.domain.vo.InventoryCheckDetailVO;
 import com.cyl.wms.domain.vo.ItemVO;
 import com.cyl.wms.domain.form.InventoryCheckFrom;
 import com.github.pagehelper.PageHelper;
-import com.ruoyi.common.utils.SecurityUtils;
+import com.wxs.common.utils.SecurityUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -13,7 +13,7 @@ import com.cyl.wms.domain.vo.InventorySettlementDetailVO;
 import com.cyl.wms.domain.form.InventoryCheckFrom;
 import com.cyl.wms.domain.form.InventorySettlementFrom;
 import com.github.pagehelper.PageHelper;
-import com.ruoyi.common.utils.SecurityUtils;
+import com.wxs.common.utils.SecurityUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;

@@ -1,9 +1,10 @@
 package com.cyl.wms.domain.vo;
 
 import java.time.LocalDateTime;
-import com.ruoyi.common.annotation.Excel;
+import com.wxs.common.annotation.Excel;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ruoyi.common.core.domain.BaseAudit;
+import com.wxs.common.core.domain.BaseAudit;
+
 import lombok.Data;
 /**
  * 发货记录 数据视图对象

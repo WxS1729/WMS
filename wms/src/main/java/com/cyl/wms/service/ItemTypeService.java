@@ -181,7 +181,7 @@ public class ItemTypeService {
     private List<ItemType> getChildList(List<ItemType> list, ItemType t) {
         List<ItemType> tlist = new ArrayList<>();
         for (ItemType n : list) {
-            if (com.ruoyi.common.utils.StringUtils.isNotNull(n.getParentId()) && n.getParentId().longValue() == t.getItemTypeId().longValue()) {
+            if (com.wxs.common.utils.StringUtils.isNotNull(n.getParentId()) && n.getParentId().longValue() == t.getItemTypeId().longValue()) {
                 tlist.add(n);
             }
         }

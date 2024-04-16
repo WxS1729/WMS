@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.wxs</groupId>
+    <artifactId>wxs</artifactId>
     <version>3.7.0</version>
 
-    <name>ruoyi</name>
+    <name>wxs</name>
 
     <properties>
-        <ruoyi.version>3.7.0</ruoyi.version>
+        <wxs.version>3.7.0</wxs.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -176,37 +176,37 @@
 
             <!-- 定时任务-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-quartz</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.wxs</groupId>
+                <artifactId>wms-quartz</artifactId>
+                <version>${wxs.version}</version>
             </dependency>
 
             <!-- 代码生成-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-generator</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.wxs</groupId>
+                <artifactId>wms-generator</artifactId>
+                <version>${wxs.version}</version>
             </dependency>
 
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-framework</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.wxs</groupId>
+                <artifactId>wms-framework</artifactId>
+                <version>${wxs.version}</version>
             </dependency>
 
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.wxs</groupId>
+                <artifactId>wms-system</artifactId>
+                <version>${wxs.version}</version>
             </dependency>
 
             <!-- 通用工具-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.wxs</groupId>
+                <artifactId>wms-common</artifactId>
+                <version>${wxs.version}</version>
             </dependency>
 
             <dependency>
@@ -229,13 +229,13 @@
     </dependencyManagement>
 
     <modules>
-        <module>ruoyi-admin</module>
+        <module>wms-admin</module>
         <module>wms</module>
-        <module>ruoyi-framework</module>
-        <module>ruoyi-system</module>
-        <module>ruoyi-quartz</module>
-        <module>ruoyi-generator</module>
-        <module>ruoyi-common</module>
+        <module>wms-framework</module>
+        <module>wms-system</module>
+        <module>wms-quartz</module>
+        <module>wms-generator</module>
+        <module>wms-common</module>
     </modules>
     <packaging>pom</packaging>
 

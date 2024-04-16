@@ -2,8 +2,7 @@ package com.cyl.wms.domain.vo;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import com.ruoyi.common.annotation.Excel;
-import com.fasterxml.jackson.annotation.JsonFormat;
+import com.wxs.common.annotation.Excel;
 import lombok.Data;
 /**
  * 客户账户流水 数据视图对象

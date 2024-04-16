@@ -9,7 +9,7 @@ import com.cyl.wms.mapper.InventoryHistoryMapper;
 import com.cyl.wms.domain.query.InventoryHistoryQuery;
 import com.cyl.wms.domain.vo.InventoryHistoryVO;
 import com.github.pagehelper.PageHelper;
-import com.ruoyi.common.constant.CommonConstant;
+import com.wxs.common.constant.CommonConstant;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

@@ -18,15 +18,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.annotation.Log;
-import com.ruoyi.common.core.controller.BaseController;
-import com.ruoyi.common.enums.BusinessType;
+import com.wxs.common.annotation.Log;
+import com.wxs.common.core.controller.BaseController;
+import com.wxs.common.enums.BusinessType;
 import com.cyl.wms.convert.InventoryMovementDetailConvert;
 import com.cyl.wms.domain.entity.InventoryMovementDetail;
 import com.cyl.wms.domain.query.InventoryMovementDetailQuery;
 import com.cyl.wms.service.InventoryMovementDetailService;
 import com.cyl.wms.domain.vo.InventoryMovementDetailVO;
-import com.ruoyi.common.utils.poi.ExcelUtil;
+import com.wxs.common.utils.poi.ExcelUtil;
 /**
  * 库存移动详情Controller
  * 

@@ -18,15 +18,15 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.ruoyi.common.annotation.Log;
-import com.ruoyi.common.core.controller.BaseController;
-import com.ruoyi.common.enums.BusinessType;
+import com.wxs.common.annotation.Log;
+import com.wxs.common.core.controller.BaseController;
+import com.wxs.common.enums.BusinessType;
 import com.cyl.wms.convert.RackConvert;
 import com.cyl.wms.domain.entity.Rack;
 import com.cyl.wms.domain.query.RackQuery;
 import com.cyl.wms.service.RackService;
 import com.cyl.wms.domain.vo.RackVO;
-import com.ruoyi.common.utils.poi.ExcelUtil;
+import com.wxs.common.utils.poi.ExcelUtil;
 /**
  * 货架Controller
  * 

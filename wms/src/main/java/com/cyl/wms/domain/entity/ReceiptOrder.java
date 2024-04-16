@@ -1,9 +1,9 @@
 package com.cyl.wms.domain.entity;
 
-import com.ruoyi.common.annotation.Excel;
+import com.wxs.common.annotation.Excel;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-import com.ruoyi.common.core.domain.BaseAudit;
+import com.wxs.common.core.domain.BaseAudit;
 import lombok.Data;
 import com.baomidou.mybatisplus.annotation.TableName;
 
