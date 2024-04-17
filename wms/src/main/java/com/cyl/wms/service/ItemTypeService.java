@@ -65,25 +65,15 @@ public class ItemTypeService {
         QueryWrapper<ItemType> qw = new QueryWrapper<>();
         qw.eq("del_flag",0);
         Long parentId = query.getParentId();
-        if (parentId != null) {
-            qw.eq("parent_id", parentId);
-        }
+        qw.eq(parentId != null,"parent_id", parentId);
         String ancestors = query.getAncestors();
-        if (!StringUtils.isEmpty(ancestors)) {
-            qw.eq("ancestors", ancestors);
-        }
+        qw.eq(!StringUtils.isEmpty(ancestors),"ancestors", ancestors);
         String typeNameLike = query.getTypeNameLike();
-        if (!StringUtils.isEmpty(typeNameLike)) {
-            qw.like("type_name", typeNameLike);
-        }
+        qw.like(!StringUtils.isEmpty(typeNameLike),"type_name", typeNameLike);
         Integer orderNum = query.getOrderNum();
-        if (orderNum != null) {
-            qw.eq("order_num", orderNum);
-        }
+        qw.eq(orderNum != null,"order_num", orderNum);
         String status = query.getStatus();
-        if (!StringUtils.isEmpty(status)) {
-            qw.eq("status", status);
-        }
+        qw.eq(!StringUtils.isEmpty(status),"status", status);
         return itemTypeMapper.selectList(qw);
     }
 

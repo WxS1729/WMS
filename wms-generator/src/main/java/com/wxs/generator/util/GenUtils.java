@@ -241,7 +241,7 @@ public class GenUtils {
      * @return 替换后的名字
      */
     public static String replaceText(String text) {
-        return RegExUtils.replaceAll(text, "(?:若依)", "");
+        return RegExUtils.replaceAll(text, "(?:隗许舜)", "");
     }
 
     /**
