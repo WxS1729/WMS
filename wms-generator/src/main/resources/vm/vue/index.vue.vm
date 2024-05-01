@@ -401,7 +401,7 @@ export default {
       // 查询参数
       queryParams: {
         pageNum: 1,
-        pageSize: 10,
+        pageSize: 15,
 #foreach ($column in $columns)
 #if($column.query)
         $column.javaField: null#if($velocityCount != $columns.size()),#end
